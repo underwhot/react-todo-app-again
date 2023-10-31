@@ -1,0 +1,21 @@
+.todo-list {
+  &__item_btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  &__actions {
+    display: flex;
+    gap: 10px;
+    @media (max-width:479px){
+      flex-direction: column;
+    }
+  }
+
+  & .dark {
+    transition: color 0.3s ease 0s;
+    color: #777;
+  }
+}

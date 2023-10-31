@@ -1,0 +1,17 @@
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px;
+  padding-bottom: 100px;
+  /* text-align: center; */
+}
+
+.card-main {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #999;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.card-main:not(:last-child) {
+  /* margin-bottom: 15px; */
+}

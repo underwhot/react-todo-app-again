@@ -1,0 +1,36 @@
+.input {
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 15px 15px 15px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+
+  &__form {
+  }
+}
+.form-input {
+  display: flex;
+
+
+  @media (max-width: 479px) {
+    display: block;
+  }
+
+  &__input {
+    margin-right: 15px;
+    flex: 1 1 auto;
+    min-height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    border: none;
+
+    @media (max-width: 479px) {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+}
